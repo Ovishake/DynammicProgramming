@@ -8,7 +8,7 @@ public class Q1 {
 		Scanner scan = new Scanner(System.in);
 		String a = scan.nextLine();
 		String b = fibonacci(a);
-		System.out.println("Time : "+(et-st));
+		System.out.println("Time taken : "+(et-st));
 	}
 	static String fibonacci(String a)
 	{
